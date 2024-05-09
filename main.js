@@ -1,3 +1,4 @@
+// password
 function validate_password() {
     let pass = document.getElementById('pass').value;
     let confirm_pass = document.getElementById('confirm_pass').value;

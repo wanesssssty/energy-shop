@@ -74,7 +74,7 @@
                     class="form-field-input" 
                     name="Ім'я" 
                     id="user-name" 
-                    required>
+                    required placeholder="Ім'я...">
         
             </div>
         
@@ -90,7 +90,7 @@
                     class="form-field-input"
                     name="Прізвище"
                     id="user-last-name" 
-                    required>
+                    required placeholder="Прізвище...">
         
             </div>
         
@@ -106,7 +106,9 @@
                     class="form-field-input" 
                     name="Email" 
                     id="user-email" 
-                    required>
+                    spellcheck=false
+                    required placeholder="Email..."
+                    autocomplete="off">
             
             </div>
 
@@ -122,7 +124,8 @@
                     id="pass"
                     type="password"
                     name="pass"
-                    required>
+                    autocomplete="off"
+                    required placeholder="Пароль...">
 
             </div>
 
@@ -138,7 +141,7 @@
                     id="confirm_pass"
                     type="password"
                     name="confirm_pass"
-                    required
+                    required placeholder="Повторіть пароль..."
                     onkeyup="validate_password()">
 
             </div>

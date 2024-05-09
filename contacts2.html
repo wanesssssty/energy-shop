@@ -63,22 +63,39 @@
                     <p class="form-descr">Введіть дані свого аккаунту:</p>
 
                     <div class="form-field">
+            
+                <label
+                    for="user-email"
+                    class="form-field-label">
+                    Email:
+                </label>
+                <input 
+                    type="email" 
+                    class="form-field-input" 
+                    name="Email" 
+                    id="user-email" 
+                    spellcheck=false
+                    required placeholder="Email..."
+                    autocomplete="off">
+            
+            </div>
 
-                        <label for="user-email" class="form-field-label">
-                            Email:
-                        </label>
-                        <input type="email" class="form-field-input" name="Email" id="user-email" required>
-
-                    </div>
-
-                    <div class="form-field">
-
-                        <label for="user-pass" class="form-field-label">
-                            Пароль:
-                        </label>
-                        <input class="form-field-input" id="pass" type="password" name="pass" required>
-                        <a href="" class="forgot-pass">Забули пароль?</a>
-                    </div>
+            <div class="form-field">
+            
+                <label 
+                    for="user-pass" 
+                    class="form-field-label">
+                    Пароль:
+                </label>
+                <input 
+                    class="form-field-input"
+                    id="pass"
+                    type="password"
+                    name="pass"
+                    autocomplete="off"
+                    required placeholder="Пароль...">
+                    <a href="" class="forgot-pass">Забули пароль?</a>
+            </div>
 
                     <button class="form-button">
                         Ввійти

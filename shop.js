@@ -53,7 +53,7 @@ function createImageCard(imageObject) {
 
   const priceButton = document.createElement("button");
   priceButton.classList.add("price-monsters");
-  priceButton.textContent = `Ціна ${imageObject.price}`;
+  priceButton.textContent = `${imageObject.price}`;
 
   imageCard.appendChild(image);
   imageCard.appendChild(imageDescription);
@@ -84,8 +84,63 @@ function loadMore() {
     imageGallery.appendChild(createImageCard(images[i]));
   }
 }
-
 // Load initial images
 loadInitialImages();
 
-// Todo hover to button, delete name in login and add forgot password button 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// todo sort
+
+// сортування
+// window.myApp = {
+//     sortBy: function(criteria) {
+//         if (criteria === 'name') {
+//             cart.sort((a, b) => a.name.localeCompare(b.name));
+//         } else if (criteria === 'price') {
+//             cart.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+//         }
+//         displayCartItems();
+//     },
+//     displayCartItems: function() {
+//         displayCartItems();
+//     }
+// };
+
+// const ctx = document.getElementById('myChart');
+
+// new Chart(ctx, {
+//   type: 'bar',
+//   data: {
+//     labels: ['Girlwood Lip Care Set', 'Hadat Cosmetics Hydro Nutrient Nourishing Conditioner', 'Єва колаген Єгипетський', 'Missha Signature M Real Complete BB Cream', 'ПІНКА ДЛЯ ВМИВАННЯ', 'Гідрофільна олійка', 'Набір карбоксітерапії з фруктовими кислотами', 'Крем для обличчя Anti acne'], 
+//     datasets: [{
+//       label: 'Ціна', 
+//       data: [20, 10, 14, 22, 21, 18, 14, 19],
+//       backgroundColor: 'rgba(255, 99, 132, 0.2)', 
+//       borderColor: 'rgba(255, 99, 132, 1)', 
+//       borderWidth: 1
+      
+//     }]
+//   },
+//   options: {
+//     scales: {
+//       y: {
+//         beginAtZero: true
+//       }
+//     }
+//   }
+// });
+
